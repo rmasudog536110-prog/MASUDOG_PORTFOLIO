@@ -1,0 +1,33 @@
+/* Style for title */
+.title {
+  color: #e63946;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Subtitle style */
+.subtitle {
+  text-align: center;
+  color: #555;
+  font-size: 18px;
+}
+
+/* Button style */
+#myBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 25px;
+  font-size: 18px;
+  background: #1d3557;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#myBtn:hover {
+  background: #457b9d;
+  transform: matrix(1.05, 0, 0, 1.05, 0, 0);
+}
