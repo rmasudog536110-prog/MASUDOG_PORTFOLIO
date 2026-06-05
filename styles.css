@@ -191,13 +191,28 @@ section { padding: 7rem 0; }
   0%,100% { opacity: 1; transform: scale(1); }
   50%      { opacity: .4; transform: scale(.8); }
 }
+.hero-name-profile {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: .5rem;
+}
 .hero h1 {
   font-family: var(--sans);
   font-weight: 800;
   font-size: clamp(3rem, 8vw, 5.5rem);
   line-height: 1.0;
   color: var(--text);
-  margin-bottom: .5rem;
+  margin: 0;
+}
+.profile-pic {
+  width: clamp(120px, 18vw, 200px);
+  height: clamp(120px, 18vw, 200px);
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent);
+  box-shadow: 0 8px 24px rgba(0, 255, 136, 0.15);
+  background: var(--bg2);
 }
 .hero-handle {
   font-family: var(--mono);
